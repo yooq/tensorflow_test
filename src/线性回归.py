@@ -66,5 +66,6 @@ with tf.Session() as sess:
 
     plt.show()
 
+    
     print("x=0.2，z=", sess.run(z, feed_dict={X: 0.2}))
 
