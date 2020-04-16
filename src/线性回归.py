@@ -65,7 +65,5 @@ with tf.Session() as sess:
     plt.title('Minibatch run vs. Training loss')
 
     plt.show()
-
-    
     print("x=0.2，z=", sess.run(z, feed_dict={X: 0.2}))
 
