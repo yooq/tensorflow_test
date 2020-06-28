@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html class="">
+    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+
+        <script nonce="" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+            window.LANG= "zh_CN";
+            window.isOldVideoPage = false;
+                    </script>
+        <title></title>
+        <!---请求录制 by gabyliu-->
+        <!--todo 这里要加cookie或actionType才加载 -->
+
+<link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.2.0/weui.css">
+<link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/2.2.0/weui.css">
+<link rel="stylesheet" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/profile/index4e964f.css">
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/pages/video4ea6cf.css" />
+
+    </head>
+                        <body id="" class="zh_CN   discuss_tab  appmsg_skin_default appmsg_style_default ">
+        <!-- <span style="color: red">currentVersion 26070333</span>
+                            <span style="color: red">is Hight version</span>
+                <span style="color: red">11126070333</span>
+        <span style="color: red">222170009FF</span> -->
+
+
+
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="dns-prefetch" href="https://wxa.wxs.qq.com">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+<script nonce="" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&yen;", "¥", "&amp;", "&"];
+
+
+
+
+
+
+        var replaceReverse = ["&", "&amp;", "¥", "&yen;", "<", "&lt;", ">", "&gt;", " ", "&nbsp;", '"', "&quot;", "'", "&#39;"];
+	    var target;
+	    if (encode) {
+	    	target = replaceReverse;
+	    } else {
+	    	target = replace;
+	    }
+        for (var i=0,str=this;i< target.length;i+= 2) {
+             str=str.replace(new RegExp(target[i],'g'),target[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd';
+        var tmp = url.split('?'),
+            query = (tmp[1] || "").split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || "777" || '';
+        window.key = params['key'] || "777" || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+        window.appmsg_token = "1066_6jRH2iwIvBzEtp8XDPPDCCIgAqZQCSFa1MZkpg~~";
+    })();
+
+    function wx_loaderror() {
+        if (location.pathname === '/bizmall/reward') {
+            new Image().src = '/mp/jsreport?key=96&content=reward_res_load_err&r=' + Math.random();
+        }
+    }
+
+</script>
+
+<script nonce="" type="text/javascript">
+            window.no_moon_ls = 0;
+    </script>
+
+
+<div class="profile_container">
+    <script type="text/javascript">
+        if (window.location != window.parent.location) {
+            window.location.href = 'http://mp.weixin.qq.com/mp/readtemplate?t=wxm-cannot-open#wechat_redirect';
+        }
+        var pass_ticket = "S23A8TfBAdc487XfztXjuXz5P6CiyhrRweUYpAy/SzO7DWmgQFP4Gv6c5w8PwkFx" || "";
+        var uin = "777" || "";
+        var key = "777" || "";
+    </script>
+
+    <div class="weui_fake_search" title="搜索" role="search" aria-label="搜索公众号文章" id="js_search" style="display:none;">
+        <div class="weui_fake_search_inner">
+          <i class="weui-icon-search"></i>搜索        </div>
+    </div>
+    <div class="profile_info appmsg">
+        <span class="radius_avatar profile_avatar">
+            <img src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM5jaQiaCBEMdjiaexp3MR7fJvL54JGeQQ2sH2EibnGv4Nmug/0" id="icon">
+        </span>
+        <strong class="profile_nickname" id="nickname">
+        </strong>
+                <p class="profile_desc">
+                        为您提供及时准确的文化和旅游咨询，了解山城的吃、住、行，山城阳泉欢迎您！
+                    </p>
+
+
+    </div>
+
+
+    <div class="profile-operator" id="js_operator">
+
+        <a href="javascript:void(0);" id="js_btn_view_profile" class="weui-btn weui-btn_plain-primary" >发消息</a>
+        <a href="javascript:void(0);" id="js_btn_add_contact" class="weui-btn weui-btn_plain-primary" style="display:none;">关注</a>
+    </div>
+
+
+
+    <script type="text/html" id="js_reward_area_tpl">
+        {{each money as m}}
+            <a href="javascript:;" class="reward-list__item" data-price="{{m/100}}">
+                <span class="reward-list__item-inner">
+                {{m/100}} <span class="currency">元</span>
+                </span>
+            </a>
+        {{/each}}
+    </script>
+
+    <script type="text/javascript">
+        var is_ok = null;
+        var fromplatform = null;
+        var scene = "126" || "";
+        var a8scene = "3";
+        var session_us = "";
+
+        (function() {
+            var ua = navigator.userAgent;
+            var is_ios = /(iPhone|iPad|iPod|iOS)/i.test(ua);
+            var is_android = /(Android)/i.test(ua);
+            var is_wechat = /MicroMessenger\/([\d\.]+)/i.test(ua);
+
+            var __JSAPI__ = {
+                ready: function(onBridgeReady) {
+                    var _onBridgeReady = function() {
+                        if (!!onBridgeReady) {
+                            onBridgeReady();
+                        }
+                    };
+
+                    if (typeof top.window.WeixinJSBridge == "undefined" || !top.window.WeixinJSBridge.invoke) {
+
+                        if (top.window.document.addEventListener) {
+                            top.window.document.addEventListener('WeixinJSBridgeReady', _onBridgeReady, false);
+                        } else if (top.window.document.attachEvent) {
+                            top.window.document.attachEvent('WeixinJSBridgeReady', _onBridgeReady);
+                            top.window.document.attachEvent('onWeixinJSBridgeReady', _onBridgeReady);
+                        }
+                    } else {
+
+                        _onBridgeReady();
+                    }
+                },
+                invoke: function(methodName, args, callback) {
+                    this.ready(function() {
+
+                        if (typeof top.window.WeixinJSBridge != "object" ) {
+                            alert("请在微信中打开此链接！");
+                            return false;
+                        }
+                        top.window.WeixinJSBridge.invoke(methodName, args, function(ret){
+                            if (!!callback) {
+                                callback.apply(window, arguments);
+                                var err_msg = ret && ret.err_msg ? ", err_msg-> " + ret.err_msg : "";
+                                console.info("[jsapi] invoke->" + methodName + err_msg);
+                            }
+                        });
+                    });
+                }
+            }
+            var __Ajax__ = function(obj) {
+
+                var type = (obj.type || 'GET').toUpperCase();
+                var async = typeof obj.async == 'undefined' ? true : obj.async;
+                var url = obj.url;
+                var xhr = new XMLHttpRequest();
+                var timer = null;
+                var data = null;
+
+                if (typeof obj.data == "object"){
+                    var d = obj.data;
+                    data = [];
+                    for(var k in d) {
+                        if (d.hasOwnProperty(k)){
+                            data.push(k + "=" + encodeURIComponent(d[k]));
+                        }
+                    }
+                    data = data.join("&");
+                }else{
+                    data = typeof obj.data  == 'string' ? obj.data : null;
+                }
+
+                xhr.open(type, url, async);
+                var _onreadystatechange = xhr.onreadystatechange;
+
+                xhr.onreadystatechange = function() {
+
+                    if (typeof _onreadystatechange == 'function') {
+                        _onreadystatechange.apply(xhr);
+                    }
+                    if ( xhr.readyState == 3 ) {
+                        obj.received && obj.received(xhr);
+                    }
+                    if ( xhr.readyState == 4 ) {
+                        xhr.onreadystatechange = null;
+                        var status = xhr.status;
+                        if ( status >= 200 && status < 400 ) {
+                            var responseText = xhr.responseText;
+                            var resp = responseText;
+                            if (obj.dataType == 'json'){
+                                try{
+                                    resp = eval("(" + resp + ")");
+                                }catch(e){
+                                    obj.error && obj.error(xhr);
+                                    return;
+                                }
+                            }
+                            obj.success && obj.success(resp);
+                        } else {
+                            obj.error && obj.error(xhr);
+                        }
+                        clearTimeout(timer);
+                        obj.complete && obj.complete();
+                        obj.complete = null;
+                    }
+                };
+                if( type == 'POST' ){
+                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+                }
+                xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+                if( typeof obj.timeout != 'undefined' ){
+                    timer = setTimeout(function(){
+                        xhr.abort("timeout");
+                        obj.complete && obj.complete();
+                        obj.complete = null;
+                    }, obj.timeout);
+                }
+                try{
+                    xhr.send(data);
+                } catch ( e ) {
+                    obj.error && obj.error();
+                }
+            }
+            if (is_wechat) {
+                if (/WindowsWechat/i.test(ua)) {
+                    is_ok = 1;
+                    fromplatform = 2;
+                    __Ajax__({
+                        type: 'POST',
+                        dataType: 'json',
+                        url: '/mp/profile_ext?action=urlcheck&uin=' + window.uin + '&key=' + window.key + '&pass_ticket=' + window.pass_ticket + "&appmsg_token=" + window.appmsg_token + '&a8scene=' + a8scene + '&session_us=' + session_us,
+                        data: {
+                            __biz: 'MzAwODcyMzE3Mg==',
+                            scene: scene,
+                            url_list: ''
+                        },
+                        success: function(res) {}
+                    });
+                } else if (is_android || is_ios) {
+                    fromplatform = 0;
+                    __JSAPI__.invoke('getRouteUrl', {}, function(res) {
+                        if (res.err_msg.indexOf('ok') != -1) {
+                            var urls = res.urls;
+                            if (is_android) {
+                                try {
+                                    urls = JSON.parse(urls);
+                                } catch (e) {
+                                    urls = [];
+                                }
+                            }
+                            __Ajax__({
+                                type: 'POST',
+                                dataType: 'json',
+                                url: '/mp/profile_ext?action=urlcheck&uin=' + window.uin + '&key=' + window.key + '&pass_ticket=' + window.pass_ticket + "&appmsg_token=" + window.appmsg_token + '&a8scene=' + a8scene + '&session_us=' + session_us,
+                                data: {
+                                    __biz: 'MzAwODcyMzE3Mg==',
+                                    scene: scene,
+                                    url_list: JSON.stringify({url_list: urls})
+                                },
+                                success: function(res) {
+                                    if (res.base_resp && res.base_resp.ret == 0 && res.is_ok == 1) {
+                                        is_ok = 1;
+                                    } else {
+                                        document.getElementById('js_btn_add_contact').style.display = 'none';
+                                        is_ok = 0;
+                                    }
+
+
+
+
+
+
+                                }
+                            });
+                        } else {
+                            is_ok = 1;
+                            fromplatform = 3;
+
+
+
+                            __Ajax__({
+                                type: 'POST',
+                                dataType: 'json',
+                                url: '/mp/profile_ext?action=urlcheck&uin=' + window.uin + '&key=' + window.key + '&pass_ticket=' + window.pass_ticket + "&appmsg_token=" + window.appmsg_token + '&a8scene=' + a8scene + '&session_us=' + session_us,
+                                data: {
+                                    __biz: 'MzAwODcyMzE3Mg==',
+                                    scene: scene,
+                                    url_list: ''
+                                },
+                                success: function(res) {}
+                            });
+                        }
+                    });
+                } else {
+                    is_ok = 1;
+                    fromplatform = 3;
+                }
+            } else {
+                is_ok = 1;
+                fromplatform = 1;
+            }
+        })();
+    </script>
+
+
+
+
+    <div class="weui_category_title js_tag">所有消息</div>
+    <div class="weui-panel">
+    <div class="weui-panel__hd" id="selectType" style="display: none;">
+        <div class="weui-dropdown-tips" id="showSelectedType">
+                        全部        </div>
+        历史消息    </div>
+    <div class="weui-panel__bd appmsg_history_container" id="js_container"></div>
+    </div>
+
+    <div id="select_tpl">
+    <div class="weui-mask" id="iosMask" style="display: none"></div>
+    <div class="weui-actionsheet" id="iosActionsheet">
+        <div class="weui-actionsheet__menu">
+        <div class="weui-actionsheet__cell confirmType" data-type="all">全部</div>
+        <div class="weui-actionsheet__cell confirmType" data-type="video">视频</div>
+        </div>
+        <div class="weui-actionsheet__action">
+        <div class="weui-actionsheet__cell confirmType" id="iosActionsheetCancel" data-type="cancel">取消</div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+var PAGE_MID='mmbizwap:appmsg/profile.html';
+</script>
+        <script nonce="" type="text/javascript">
+window.logs.pagetime.page_begin = Date.now();
+</script>
+        <script nonce="" type="text/javascript">
+  (function () {
+
+    var ajaxWhiteList = {
+      1: {
+        reg: /^https?:\/\/mp\.weixin\.qq\.com\/mp\/appmsg_like/,
+        times: 0
+      },
+      2: {
+        reg: /^https?:\/\/mp\.weixin\.qq\.com\/mp\/appmsg_comment((\?|&)[^=]*?=[^&]*?)*?(\?|&)action=likecomment/,
+        times: 0
+      },
+      3: {
+        reg: /^https?:\/\/mp\.weixin\.qq\.com\/mp\/appmsg_comment((\?|&)[^=]*?=[^&]*?)*?(\?|&)action=addcomment/,
+        times: 0
+      },
+      4: {
+        reg: /^https?:\/\/mp\.weixin\.qq\.com\/mp\/authorreward/,
+        times: 0
+      }
+
+
+
+
+    };
+
+
+    if (!performance || !performance.getEntries) return;
+
+
+    var hasReported = false;
+
+
+    var reportResLoadTime = function () {
+
+      if (hasReported) return;
+
+
+      var notSupport = false;
+
+
+      var ajaxEntries = [];
+
+
+      var entries = performance.getEntries().map(function (entry) {
+        if (typeof entry !== 'object') {
+          notSupport = true;
+        } else if (entry.entryType === undefined) {
+          notSupport = true;
+        } else if (
+          entry.entryType !== 'navigation' &&
+          entry.entryType !== 'resource'
+        ) {
+
+          return null;
+        } else if (entry.initiatorType === undefined) {
+          notSupport = true;
+        } else if (entry.initiatorType === 'xmlhttprequest') {
+
+          if (entry.name === undefined || entry.duration === undefined) {
+            notSupport = true;
+          } else {
+            for (var scene in ajaxWhiteList) {
+              if (Object.prototype.hasOwnProperty.call(ajaxWhiteList, scene)) {
+                var ajaxItem = ajaxWhiteList[scene];
+                if (ajaxItem.times < 10 && ajaxItem.reg.test(entry.name)) {
+                  ajaxEntries.push({
+                    scene: scene,
+                    protocol: entry.nextHopProtocol,
+                    is_https: isHttps(entry),
+                    time: entry.duration
+                  });
+                  ajaxItem.times++;
+                }
+              }
+            }
+          }
+          return null;
+        }
+        return entry;
+      });
+
+
+      if (notSupport || ajaxEntries.length === 0) return;
+
+
+      var data = {
+        stat_list: ajaxEntries
+      };
+      var img = new Image();
+      img.src = 'https://mp.weixin.qq.com/mp/timereport?data=' + JSON.stringify(data);
+      hasReported = true;
+    };
+
+
+    window.addEventListener('beforeunload', reportResLoadTime, false);
+    window.addEventListener('unload', reportResLoadTime, false);
+
+    function isHttps(entry) {
+      if (/^https/.test(entry.name)) return 1;
+      else return 0;
+    }
+  })();
+</script>
+        <script nonce="">
+    var __DEBUGINFO = {
+        debug_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console42f400.js",
+        safe_js : "//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe42f400.js",
+        res_list: []
+    };
+</script>
+
+<script nonce="" type="text/javascript">
+(function() {
+	var totalCount = 0,
+			finishCount = 0;
+
+	function _loadVConsolePlugin() {
+		window.vConsole = new window.VConsole();
+		while (window.vConsolePlugins.length > 0) {
+			var p = window.vConsolePlugins.shift();
+			window.vConsole.addPlugin(p);
+		}
+	}
+
+	function _addVConsole(uri, cb) {
+		totalCount++;
+		var node = document.createElement('SCRIPT');
+		node.type = 'text/javascript';
+		node.src = uri;
+		node.setAttribute('nonce', '');
+		if (cb) {
+			node.onload = cb;
+		}
+		document.getElementsByTagName('head')[0].appendChild(node);
+	}
+	if (
+		(document.cookie && document.cookie.indexOf('vconsole_open=1') > -1)
+		|| location.href.indexOf('vconsole=1') > -1
+	) {
+		window.vConsolePlugins = [];
+		_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.2.2/vconsole.min440203.js', function() {
+
+			_addVConsole('//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/plugin/vconsole-mpopt/1.0.1/vconsole-mpopt42f400.js', _loadVConsolePlugin);
+		});
+	}
+
+
+  try {
+    var adIframeUrl = localStorage.getItem('__WXLS_ad_iframe_url');
+    if (window === top) {
+      if (adIframeUrl) {
+        if (navigator.userAgent.indexOf('iPhone') > -1) {
+          var img = new Image();
+          img.src = adIframeUrl;
+        } else {
+          var link = document.createElement('link');
+          link.rel = 'prefetch';
+          link.href = adIframeUrl;
+          document.getElementsByTagName('head')[0].appendChild(link);
+        }
+      }
+    }
+  } catch (err) {
+
+  }
+
+})();
+</script>
+
+        <script>window.__moon_host = 'res.wx.qq.com';window.moon_map = {"cdg_module/dist/sdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/cdg_module/dist/sdk451d85.js","new_video/plugin/frameAd.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/frameAd.html42f400.js","new_video/plugin/imgAd.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/imgAd.html485189.js","biz_common/utils/comm_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/comm_report4d825e.js","biz_wap/utils/ajax_load_js.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_load_js42f400.js","new_video/plugin/util.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/util4a091e.js","biz_common/base64.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/base6442f400.js","new_video/player.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player.html4b3caf.js","biz_wap/jsapi/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/log4673d5.js","a/wxopen_card.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/wxopen_card4c4c98.js","new_video/plugin/frameAd.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/frameAd42f400.js","new_video/plugin/imgAd.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/imgAd42f400.js","biz_wap/utils/hashrouter.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter453348.js","new_video/plugin_base.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin_base42f400.js","biz_wap/utils/device.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device4830e1.js","pages/video_plugin/base.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_plugin/base42f400.js","pages/video_ctrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_ctrl42f400.js","a/a_config.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_config4e7d32.js","biz_wap/utils/openUrl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/openUrl4402ec.js","biz_common/dom/class.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class42f400.js","biz_common/utils/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report42f400.js","pages/audition_tpl.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/audition_tpl.html47a8e6.js","common/comm_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/comm_report4e6d74.js","biz_wap/utils/wapsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/wapsdk4c4c98.js","pages/create_txv.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/create_txv4c7460.js","pages/video_error.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_error.html49b95f.js","biz_common/tmpl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl485189.js","new_video/ctl.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl4a46b1.js","new_video/player.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/player4e402d.js","new_video/plugin/ad.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/ad4c4c98.js","new_video/plugin/proxy.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/plugin/proxy4d5545.js","biz_common/dom/attr.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr42f400.js","pages/report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report4a2c10.js","pages/version4video.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video4e7528.js","biz_wap/utils/storage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage42f400.js","biz_wap/utils/localstorage.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage42f400.js","pages/video_plugin/video_monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_plugin/video_monitor4c4c98.js","pages/loadscript.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript42f400.js","pages/iframe_communicate.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/iframe_communicate4848aa.js","a/a_utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/a_utils4e7d32.js","biz_wap/ui/weui.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/weui4e964f.js","biz_wap/zepto/touch.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch42f400.js","pages/player_tips.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/player_tips47a8e6.js","biz_common/utils/monitor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor4c4c98.js","biz_wap/utils/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/log42f400.js","biz_wap/utils/ajax_wx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax_wx4dcb51.js","biz_common/utils/respTypes.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes42f400.js","biz_common/utils/wxgspeedsdk.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/wxgspeedsdk42f400.js","biz_common/template-2.0.1-cmd.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/template-2.0.1-cmd42f400.js","common/utils.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/utils4e7d32.js","biz_common/utils/url/parse.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse440451.js","appmsg/malicious_wording.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/malicious_wording42f400.js","pages/qq_video_info.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qq_video_info4e402d.js","biz_common/utils/emoji_data.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/emoji_data4c46a0.js","history/profile_history_v2.html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/profile_history_v2.html4c95a6.js","biz_common/utils/string/html.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html42f400.js","appmsg/cdn_img_lib.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib42f400.js","pages/video_communicate_adaptor.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/video_communicate_adaptor4b3caf.js","biz_wap/zepto/zepto.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto440203.js","biz_wap/zepto/fx.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/fx42f400.js","biz_wap/utils/fakehash.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/fakehash42f400.js","biz_wap/utils/jsmonitor_report.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/jsmonitor_report4cf53e.js","common/color/background_color.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/color/background_color4e964f.js","biz_wap/jsapi/pay.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/pay42f400.js","appmsg/log.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/log42f400.js","biz_wap/jsapi/core.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core4dcb51.js","biz_wap/utils/ajax.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax4a2b2d.js","history/performance.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/performance42f400.js","biz_wap/utils/mmversion.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion4e964f.js","biz_common/dom/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event4b3caf.js","history/template_helper.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/template_helper473351.js","history/profile_history_v2.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/history/profile_history_v24e2fa6.js","common/color/dark.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/color/dark4e964f.js","common/color/light.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/common/color/light4e964f.js","biz_wap/zepto/event.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event42f400.js","biz_wap/zepto/fx_methods.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/fx_methods42f400.js","appmsg/profile.js":"//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/profile4e964f.js"};</script><script type="text/javascript">window.__wxgspeeds={}; window.__wxgspeeds.moonloadtime=+new Date()</script><script  type="text/javascript" src="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon4df391.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script type="text/javascript">
+
+
+    var username = "" || "gh_3d9ae1538622";
+    var is_subscribed = "1" * 1;
+    var action = "home" || "";
+    var bizacct_type = "" || "";
+    var can_msg_continue = '1' * 1;
+    var headimg = "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5jaQiaCBEMdjiaexp3MR7fJvL54JGeQQ2sH2EibnGv4Nmug/0" || "";
+    var nickname = "阳泉市文化和旅游局".html(false) || "";
+    var is_banned = "0" * 1;
+    var __biz = "MzAwODcyMzE3Mg==";
+    var next_offset = "10" * 1;
+
+    var use_video_tab = "1" || "";
+    var video_count = "1" || "";
+    var real_type = "0" || "";
+    var defaultHistoryType = (real_type == "43") ? "video" : "all";
+
+    var appmsgid = "" || "";
+    var idx = "" || "";
+    var reprint_biz = "" || "";
+    var reprint_appmsgid = "" || "";
+    var reprint_idx = "" || "";
+    var timestamp = "" || "";
+
+
+    var vid = '';
+    var url = '';
+    if (/\//.test(url)) url = encodeURIComponent(url);
+
+    window.cgiData = {
+        appid: "wx3be6367203f983ac",
+        timestamp: "1592824474",
+        noncestr: "JflJWg3mkQOzHp6jAPHG",
+        signature: "35f7acd681670f399481e666fb9dd65b2e516d5f",
+    }
+
+        var msgList = '{&quot;list&quot;:[{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001236,&quot;type&quot;:49,&quot;datetime&quot;:1592823876,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;榜上有名！市艺校入选首批全国职业院校&nbsp;“双师型”教师队伍建设典型案例&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:502734507,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218159&amp;amp;idx=1&amp;amp;sn=a8679fd534fd44cfa185fc419849e4af&amp;amp;chksm=83693124b41eb832ca3fddeb05eb36acce973c28012689d1c022c63f5f2300a2aee27e33158c&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2QPbUPYb9Kibl0UrVg7ZamVuHa4xpTicBdb8hf8OQkRPYTq1Rg89kExJvibL77esicTuibnwzsI9CnOYA/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;市文化市场综合行政执法队开展规范制作执法文书培训&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218159&amp;amp;idx=2&amp;amp;sn=ab2021851eb6ae0070f6d45c45d8dd6e&amp;amp;chksm=83693124b41eb832bd25be7e393777001acc6ba3d9fb5db924b1fde9c2b99e0c32af8325b1fd&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2QPbUPYb9Kibl0UrVg7ZamVLibPAKTZibfMnKHWqTPfSZqXqfM4z0u0JibOXBy0xriau1dxsPwpZU6hAQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;太行山传统村落之小河村&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218159&amp;amp;idx=3&amp;amp;sn=ca5f28c87c354ca47dd95b19ee7ce33f&amp;amp;chksm=83693124b41eb83205af3d62f30d7c79a5d7f635cc1aee2b1db10f29b38cc9e5cad1a1c3d406&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2QPbUPYb9Kibl0UrVg7ZamV4ZP060uODUvJM2JQxRHiawRSsPhVMiaTWwgWb8MMSbgcZzpicC9EBhsaA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;非遗公开课丨平定紫砂制作&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218159&amp;amp;idx=4&amp;amp;sn=e6a5120490f7c1dc641166a2f0da78fb&amp;amp;chksm=83693124b41eb83240204ca2c5d84355414e107189c0414b0d464bb311d0bcab04fa7415ade9&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2QPbUPYb9Kibl0UrVg7ZamVuicKF3sL0VCYp0sWXmVeRUITDfJPwVCWNSBIm4VloLIISibsvmURhyWg/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;盂县传说知多少之二郎庙&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218159&amp;amp;idx=5&amp;amp;sn=336498ba5a232b4760046f38bfba1c4c&amp;amp;chksm=83693124b41eb832a37e447e6c35c82461a75816be5ed6abd29fb7694e012b3020419d88db72&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2QPbUPYb9Kibl0UrVg7ZamViaerC1icIwNq98TC9uv25ibD21dy82NSLC4TqykJm0picnxIABLyICfm2A/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;阳图微课丨第八课&nbsp;年&nbsp;月&nbsp;日&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218159&amp;amp;idx=6&amp;amp;sn=fe3de2a989e1fd55eb4679c22a8a5296&amp;amp;chksm=83693124b41eb832e6ffd80d6b5a1011def2416bfc6c200c9df9d578fafc9c6a1651a8d6a4c6&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2QPbUPYb9Kibl0UrVg7ZamV9MJsZNuNXsQ1QSqt4WpI1K8SvUhqUNaPk73Cuoicn20vXVEs6PCop9g/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001235,&quot;type&quot;:49,&quot;datetime&quot;:1592732947,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;“夏至”来了&nbsp;&nbsp;——&nbsp;阳泉市“节气文化·四季阳泉”主题文旅活动“夏至”&nbsp;暨第二届刘备山文化旅游节开幕&quot;,&quot;digest&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650218065&amp;amp;idx=1&amp;amp;sn=91652fd76ff01b1bb48234f377169961&amp;amp;chksm=836931dab41eb8cca4756361f89cd52ee9f91f8092a73903f130fcd847bce128fcdeed92e464&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC15goyCMY4Epib30ewztG9IiboPde3gQMj4sB7QuU7McicAW3oCTbfFYib7P2YYciakiaHK7hV1VyekuDWA/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:0,&quot;multi_app_msg_item_list&quot;:[],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001234,&quot;type&quot;:49,&quot;datetime&quot;:1592559629,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;传承非遗，乐享健康！平定，安排！&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217987&amp;amp;idx=1&amp;amp;sn=f26cc95d5d356ae706b0997f4ff62b80&amp;amp;chksm=83693188b41eb89eee0f70eac46697eb01c5a98ceaa7c97f3162a70e0c0fab19793c323a2f1d&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/d0tR3YHgSomiawzIgI9zjvNzPKa6iabDVULxX5yZRCtRQaTThRR7ica86L0eciakjIr3qKQsNG2bniaKlican1SP8smQ/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;2020年端午假期和暑期出游提示&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217987&amp;amp;idx=2&amp;amp;sn=20d8cc1425fbda713fb218526b954c9d&amp;amp;chksm=83693188b41eb89e28d9caa01f0f0c2a0d4be72357445345677d0939df9405f134f3d3f3e29a&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC23ibIibeAYOAhQ1Ovn4E0MZiavn6CB5MX0F4M40mqvLASU4fO8jwk95fn3rxw8Kk21dW4AoMabGu2TA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;走进山西盂县猫庐文化园&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217987&amp;amp;idx=3&amp;amp;sn=6ecb9cbd617ac9cda85d60dc73054806&amp;amp;chksm=83693188b41eb89ee36d801ee33dcce8f9a08328872b2010e8de6897974c2fb3736b805c9814&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC23ibIibeAYOAhQ1Ovn4E0MZiaHjiaaKyUo1RSLbWib7ibclDR9pmJlvvGwmCKcicVThSLF0ibGAVS956ibPXQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;非遗人话非遗事儿丨冯氏正骨&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217987&amp;amp;idx=4&amp;amp;sn=eba87d40133a6e94ce072695a5e96176&amp;amp;chksm=83693188b41eb89e7be38d3b55e5cece0dc8f0ca682753c85e366ebacadc17cc6ca6e837b173&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC23ibIibeAYOAhQ1Ovn4E0MZiaBrxlbLrVyBSWoBkT5ibfs2icNHjpnSDFA68ClT8txicJO7zvibRtPIddTg/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;西岭村丨古朴典雅，是都市之畔宜居地&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217987&amp;amp;idx=5&amp;amp;sn=d50e1fe3cf137fcf1cc50b261548c637&amp;amp;chksm=83693188b41eb89e0ad6e7607c0522843871e0af46932bf340f4814a981b543de04da094c6b8&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC23ibIibeAYOAhQ1Ovn4E0MZiaEbO5vEKGQrpngdhhyUCOLBT6FA0VgeK27OpaLSVibfL0zQgwjPhwQkQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001233,&quot;type&quot;:49,&quot;datetime&quot;:1592477210,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;​“安全生产月”&nbsp;文旅系统在行动&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217866&amp;amp;idx=1&amp;amp;sn=ea6fa07365b3950aa593d1647fe811c4&amp;amp;chksm=83693201b41ebb176179f6ea3d88ec5b183bf1f7a11f85688905a8f4d8f3f2c5aad94a0ba13e&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1TwqszC7G7WEpv4IZU2rNnRoUAWicYZNYbZ0KTP5nUhaCPQfHDWnPMHRO3uSllFZibZXXN3vAgyZicA/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;山西人游山西·太行深处（阳泉篇）&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217866&amp;amp;idx=2&amp;amp;sn=8065c1126196811789bfe434a0f308bf&amp;amp;chksm=83693201b41ebb17adf4192720161f262a43a46bf2e163416ec3f75c85a3f0186452a008e16e&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1TwqszC7G7WEpv4IZU2rNnzcPOVU7uiaHtQtLNgT7UssciczLibUwoHNVibSXcWfWdBLnY52zmUThrkg/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;代家庄村：好风景带来好光景&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217866&amp;amp;idx=3&amp;amp;sn=41341884466d106e8dff2d067213055c&amp;amp;chksm=83693201b41ebb17b26c8d0507ffc924abed2b524af249be93bfed1e49f6b584f931f5737d47&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1TwqszC7G7WEpv4IZU2rNneKUQaqYiaNggg3uX4VIzj2E3eh9GuJyWia2ugq8oicrYamazYQibdZ9eRQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;非遗公开课丨平定传统布贴脸谱制作&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217866&amp;amp;idx=4&amp;amp;sn=6480bd0e858eb8daf9b55844555f140a&amp;amp;chksm=83693201b41ebb179e9c427bc6577c8501f620abf44f09bf257d74bf7505105c4ada754edfb6&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1TwqszC7G7WEpv4IZU2rNnuv6SYTNzveppALGDdYobS6JgV8OZdyfQYDaf8Wjic0yM5jX6rRZ9hug/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;阳图微课丨第七课&nbsp;石头剪刀布&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217866&amp;amp;idx=5&amp;amp;sn=3b83d92f9cb882da0672cf6b67bbb59f&amp;amp;chksm=83693201b41ebb173b2bb7a178845a9e6cc68a640021964986b4ab1e0ce608585a472218b3ed&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/naVTepzFbZuddhiabEVk0D5kOAo6o7yXiambwph20wlwJLEGDG8KYPU0eVlXAP3RribGU5oxLiaexqXBRe5gHc1iabQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001232,&quot;type&quot;:49,&quot;datetime&quot;:1592391780,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;灯光璀璨娘子关&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217797&amp;amp;idx=1&amp;amp;sn=964d66d8be4ef56f05411ca32d7767fa&amp;amp;chksm=836932ceb41ebbd871f36c4f150877a9d8f75f95e8281c6d3647e31404cfa39b21fc92c1b786&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2ylQzdeOpjiauGFxWj4NBc5OQhicHjrW2wMew3oVemicdEusnZwflFzxOx0sxzcxVyrHuXTlYU0FkVQ/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;藏孤救孤的那些传说，你知道吗？&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217797&amp;amp;idx=2&amp;amp;sn=fa4d6d0a7e6ada542f1bfa56f436b49b&amp;amp;chksm=836932ceb41ebbd86e31ca2b0cbb77e87888a55b2c4ae4749c22ec20a3f7df7d8111ad79b7f9&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0APvdia1pyYDjRZiaq2iaXIUmn47RN900NodqwPfC5701SUcQyT5UXCgkzuAhcRAtG5pwpjfKaatdnw/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;非遗人话非遗事儿丨正肤百应散&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217797&amp;amp;idx=3&amp;amp;sn=00a7672aa388a0031cd289063f2fcaa7&amp;amp;chksm=836932ceb41ebbd887530d1b02b8fc941556c9852626e25a358ed5e7b0ee891b251296b487ea&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2ylQzdeOpjiauGFxWj4NBc5e9P15SBScibM7albuu671vicdCQblBTNLFd4H4EP57Gdoh4iaLvYU6cwQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;冯雪梅：巧手剪得窗花开&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217797&amp;amp;idx=4&amp;amp;sn=09e0f2fa3b51752ce24a44009b72cba5&amp;amp;chksm=836932ceb41ebbd8810a457747b49ea72292701fbc5fdbd5b43d483810b2ce389f9e2586245b&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC2ylQzdeOpjiauGFxWj4NBc5k8xAqf2SKPD1Jj6HDAAxP4ElibkAAI1tp0icjLanIYh2zS0QIYicFIN1Q/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001231,&quot;type&quot;:49,&quot;datetime&quot;:1592305320,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;平定县太行沿线的六个景点，等你来约&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217716&amp;amp;idx=1&amp;amp;sn=27dd687a492a90426f68ba1ea8b5d8e7&amp;amp;chksm=8369337fb41eba69016a42551747e01d7510e2547f5ee9291038529048a024720c827b215f91&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0APvdia1pyYDjRZiaq2iaXIUmPuricpD8aD5IPBib0YaRuVfFZPkpmp57LK3oEeUTmPTqiam9XGxicsH0pg/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;肖捷主持召开全国政务公开领导小组第三次会议&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217716&amp;amp;idx=2&amp;amp;sn=859906c360b565a8b22f8d3e17a0e638&amp;amp;chksm=8369337fb41eba69098e1cf34b98ddd61511f238cc5ce32a020dedbc1ef55a610868f8c3961a&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/0e68YMBLFUPOrvNtmmXicVaT00T1TQUKk7WTdbugrosKYKruxxechyzvZibD96QTt5htvzd8Acwzds2vCxf2PXAQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;“非遗传承&nbsp;健康生活——古籍保护知识宣讲体验活动”进校园&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217716&amp;amp;idx=3&amp;amp;sn=4bf48c81cf66f0b970c95e25ee4621cb&amp;amp;chksm=8369337fb41eba692dc559683770d77797a175a732dfdc12d60155db502e2a77d24ec926bc97&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/naVTepzFbZvyhzfvm5FT5RaMKsDJjPWqP7eoBuojUlaVOIibfwKmoseTPic5XPdaiaZseYfcgH3Wz20ThyvSMWYrA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;上南茹村：风景美如画&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217716&amp;amp;idx=4&amp;amp;sn=fa5a974abd6d64e60164672906a4a9be&amp;amp;chksm=8369337fb41eba69b69444f70b48f6421618890a9a16bd5dfc192226cb80dbbeed32c03e982c&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0APvdia1pyYDjRZiaq2iaXIUmwDV5eeGdq3ItXPJ0ehGBMmCy1ibJIPPyS7ibWDNUR3o3oPmaicdWOUS5w/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;盂县一处好玩的地方——白龙神祠&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217716&amp;amp;idx=5&amp;amp;sn=f0fa75c37135f4f3b1cdea609cfbb250&amp;amp;chksm=8369337fb41eba6944ede7e59acbd50760b25ab8155fbc05a560f51e5cf1689107f59c58eb32&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0APvdia1pyYDjRZiaq2iaXIUmJvoQYkpzhb5awtUrJNp4InSxUJyrACK1ibYpKDL6nbZvbkYUSYk0T5w/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001230,&quot;type&quot;:49,&quot;datetime&quot;:1592214314,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;重磅！藏山景区又有大动作&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217643&amp;amp;idx=1&amp;amp;sn=4704617d8d809744ebbb2f26f4adbdcf&amp;amp;chksm=83693320b41eba36be3b0dc346407a94018aff73b81ae4a620557b27781f6dd4edd19766d775&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1LibZick1uAINqFRLsspWOeqY4QM3YXmyibDBejCxec7FysPDAuIZpRr1dgsgJxAkgArCCGuBMtfFTA/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;非遗人话非遗事儿丨任氏小儿推拿&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217643&amp;amp;idx=2&amp;amp;sn=a8a5b4f7d7c201950f7c82efb7034b58&amp;amp;chksm=83693320b41eba36e92fd4932056a32605f91b6dec00744e9aca3acd189b854c4ac8e73cee79&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1LibZick1uAINqFRLsspWOeqs6sUpicTqE2oMxrYNNj1tZXGxUOdGyyx3gLbQ6CP2ecr9egPzg6FuxA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;平定巨城镇上盘石村：天开盘石山含黛&nbsp;地接苇泽水绕村&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217643&amp;amp;idx=3&amp;amp;sn=bc06539a4ff69cf73fc787af70cd6733&amp;amp;chksm=83693320b41eba36d252733dd6853d2f059d699a124ad99076b3e22782ba2a9d2d61347d4ce7&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1LibZick1uAINqFRLsspWOeq8Tw8wpJ4sef0q6a5yjhlSwluRLbkmWz8I8jQsDrOdjGFGvpzVdf6Zw/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;三晋国宝盂县北下庄泰山庙&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217643&amp;amp;idx=4&amp;amp;sn=9343b436a8a7be2c80d385672ffea34d&amp;amp;chksm=83693320b41eba36d286a4ffde7f1b5f0e50d2ec71e787495a2c170a02961311b15aea904573&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC3FyADSDCKQibT7ejQzQhcNvrhtzKkxwq6oVSRljXNCpwurqDJWT7WK6UbDicVe7Z1xuKKaXw2CMw5Q/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;美食文化：盂县玉茭面饸饹&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217643&amp;amp;idx=5&amp;amp;sn=1a0dcc3ca7f70b67d0beb56cbadd527b&amp;amp;chksm=83693320b41eba368a41f86a89bedb1baf09710fec6fee642efd8d6230d7aac950e48cea03d4&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1LibZick1uAINqFRLsspWOeqYHxYmgiazYD5CVcMkYTW7OneTeicdw0MmnFsuuSjMsKMMn7o6u3BEfPA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;扩散！阳泉疫情防控紧急提醒！&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:502729480,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217643&amp;amp;idx=6&amp;amp;sn=6295a9f236929bdf62a1fc1f628bedf1&amp;amp;chksm=83693320b41eba36a4c65c082dccb9bc54896b0896800e40ae1427f74ec304a0095643e9eeaf&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC1LibZick1uAINqFRLsspWOeq65UR2kOrMV8m0tiavG2iaRia3I6dIDiaMFIWUmoemQMtCjSSuAoburia33A/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001229,&quot;type&quot;:49,&quot;datetime&quot;:1592056800,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;阳泉市2020年“文化和自然遗产日”&nbsp;宣传展示活动举办&quot;,&quot;digest&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217553&amp;amp;idx=1&amp;amp;sn=facb5e1c02cc1d19a7d07a7059157d8d&amp;amp;chksm=836933dab41ebacc970657d7141c8344ae1a140c056b0b685aa31bf72f13d2a28499d2207404&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0GBIK53QWRtJLib4ExVYYiafQ4NZUb8DVP7XHaWsHqP1LWu87l0LicbZ8q7fkYrVicibgTDK1icUuxefWw/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;文化和自然遗产日丨非遗传承&nbsp;健康生活——非遗人话非遗事儿线上讲座来啦！&quot;,&quot;digest&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217553&amp;amp;idx=2&amp;amp;sn=5f438aba7e1cd782e6b1bffe283ad333&amp;amp;chksm=836933dab41ebacc6a01bafaf047eae0fb959f671f2bec71c7a8f84cfe02cb7c9ea30f320771&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0GBIK53QWRtJLib4ExVYYiafvxTvgNkRoXmyOK4xkXRZ7QlW5Oo4109hs4X2SxvZchmbfEbAMbUocQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;“世界文化和自然遗产日”之&nbsp;“魅力博物馆——陶艺创作活动”圆满结束&quot;,&quot;digest&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217553&amp;amp;idx=3&amp;amp;sn=cef1c0c4b696ca185d6967e2396007e6&amp;amp;chksm=836933dab41ebacc78cfa05bed4753e43da0130a854f0dd953c3eb788587d4c1da6e6c21508b&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0GBIK53QWRtJLib4ExVYYiaf6dibBA50gOwL1nE0iahv0W4zEXfx38YljzwLrP0RJ5HdIibIDPTWb5HoA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001228,&quot;type&quot;:49,&quot;datetime&quot;:1591956420,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;文化和自然遗产日&nbsp;&nbsp;感悟习近平的非遗情缘&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217464&amp;amp;idx=1&amp;amp;sn=22a006c514d3e46bb13dbc5ebb19db46&amp;amp;chksm=83693473b41ebd65d5e8d4ec9405be8f17d8d4ea1a0c4af8142fb96509336502517878f6e66a&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC3FyADSDCKQibT7ejQzQhcNvgUlMDjf0Xa53xvibu3TN8iaQoVicrCiaAsSGIwDE3yusNr4LdqaGL6qufQ/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;固关长城：一座古州的风景线&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217464&amp;amp;idx=2&amp;amp;sn=8ed20d236e6628ebe9056126a422410f&amp;amp;chksm=83693473b41ebd655f38e56e30d6e05f27be9ce156d4d0b138923d1dcc0bd05b304f7af10bff&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC3FyADSDCKQibT7ejQzQhcNvibGRBH3kdpMK26IHPm307cpvUZPvOUn3nic3TvlU3S1WzzgEQ1bHF1tg/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;奋进孙家庄&nbsp;魅力禅房村&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217464&amp;amp;idx=3&amp;amp;sn=6053c7698a1f8c05ee17f9468f2e88ea&amp;amp;chksm=83693473b41ebd650d8cd41988db4b0df366d35e6c6dc1dd9f030cb27eb55ceb0133badc08aa&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC3FyADSDCKQibT7ejQzQhcNvKE0SB45NiaVpITicqbjLG7EoBGWC82BpSaDDPWYJJ7mB83tIXicBV7drQ/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;美食文化——红稠饭&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217464&amp;amp;idx=4&amp;amp;sn=4000393503e00ce5f551a44e0935b75a&amp;amp;chksm=83693473b41ebd65e3d54c6a64ab5a8b35ada53a8bcd405969da49f46d5402a071ecc1b9747e&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0ROUyxjJ7yguz948Jub8Q0ybBqRMLAQMQUW1KWmZNCFaPXItSGibgEDmmS4r6APqu5xsNtAtr3vTA/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}},{&quot;comm_msg_info&quot;:{&quot;id&quot;:1000001227,&quot;type&quot;:49,&quot;datetime&quot;:1591877590,&quot;fakeid&quot;:&quot;3008723172&quot;,&quot;status&quot;:2,&quot;content&quot;:&quot;&quot;},&quot;app_msg_ext_info&quot;:{&quot;title&quot;:&quot;阳泉市文化和旅游局关于2019年大宗旅游接待奖励审核结果的公示&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:502733657,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217308&amp;amp;idx=1&amp;amp;sn=f443944241d3c06c08188f6b48fac643&amp;amp;chksm=836934d7b41ebdc16b5df04568c699eeaa60dd3730312950951659a58b0bf2ebaddb81080d10&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0ROUyxjJ7yguz948Jub8Q0J3coOTgCIXOibgHmZkz2Vur8XJrQYzZCCF8jH0EHB7Et0yibgDPCq0ibA/0?wx_fmt=jpeg&quot;,&quot;subtype&quot;:9,&quot;is_multi&quot;:1,&quot;multi_app_msg_item_list&quot;:[{&quot;title&quot;:&quot;阳泉市郊区研学旅游研讨会召开&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217308&amp;amp;idx=2&amp;amp;sn=6a51e5db07dfa444559e4f6585ced1f7&amp;amp;chksm=836934d7b41ebdc190fae033f9bd4432d069edb77a04bf193f804ddb714dc4a4651de7572152&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0ROUyxjJ7yguz948Jub8Q0l0lanASjQlsWpRpoM5M9eqGtLfRe6Paj5fuFA288OIFSjyYBIQ9E8Q/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;王炸！娘子关下亮“砂”器&quot;,&quot;digest&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217308&amp;amp;idx=3&amp;amp;sn=e7baacf01b3dc9ffc5823a5a89c7cecc&amp;amp;chksm=836934d7b41ebdc1942ffb5748536c176567fec412410d96c98bdc41e26453aa16f73779832b&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/gBvPnibfoXiaqgyfOI5SUfEsLgSic0mXMevicW6kvkCQQLyicE2Qexc5IDDghVsUIuYaAIco38QQEVaichvz51qMtp3g/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;新闻中心&quot;,&quot;copyright_stat&quot;:101,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;古貌新风&nbsp;画境乡村——椿树底&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217308&amp;amp;idx=4&amp;amp;sn=b9274b057590faaf9e722e4dac33832f&amp;amp;chksm=836934d7b41ebdc1c74cb3fb4bc8a5d4014c1cf12d1ef3d661224501da2c10ca466edb8e2afe&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0ROUyxjJ7yguz948Jub8Q0Kj4pSiaT6XalEn98wuyNkeOudHMZaBUtyibOljv5Jgm3aibicjLhrxp89w/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;上盘石村：山水宝地古村新貌&nbsp;月亮湖畔世外桃源&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217308&amp;amp;idx=5&amp;amp;sn=9f35c708997aa838ad62b37e795c699c&amp;amp;chksm=836934d7b41ebdc1009e085588f6ce66fff05e58833dc0656a90ac7a959a8c697d855922e98e&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/UlnbmBbQhC0ROUyxjJ7yguz948Jub8Q05ryrYtxxogBkUDdsykgCvZR131iaiagaDtIiaRfdyDOwoQvtMRlicibcdYg/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0},{&quot;title&quot;:&quot;阳图微课丨第六课&nbsp;条件判断&quot;,&quot;digest&quot;:&quot;关山古韵\\n生态阳泉&quot;,&quot;content&quot;:&quot;&quot;,&quot;fileid&quot;:0,&quot;content_url&quot;:&quot;http://mp.weixin.qq.com/s?__biz=MzAwODcyMzE3Mg==&amp;amp;mid=2650217308&amp;amp;idx=6&amp;amp;sn=61ffb29f2d17ab2dacf282067202af1e&amp;amp;chksm=836934d7b41ebdc1e6e1fcd2c595292c49aa61aa090845c6df81eb1f66748eaf5978a744c9be&amp;amp;scene=27#wechat_redirect&quot;,&quot;source_url&quot;:&quot;&quot;,&quot;cover&quot;:&quot;http://mmbiz.qpic.cn/mmbiz_jpg/naVTepzFbZteg55l1ibib9libWiaoXgj76Fljibic0BXUjIZVUZglJBsHOxH62jIsAJXLcKeUdVwmc3XpQXBypwpzVQw/0?wx_fmt=jpeg&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;duration&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}],&quot;author&quot;:&quot;&quot;,&quot;copyright_stat&quot;:100,&quot;duration&quot;:0,&quot;del_flag&quot;:1,&quot;item_show_type&quot;:0,&quot;audio_fileid&quot;:0,&quot;play_url&quot;:&quot;&quot;,&quot;malicious_title_reason_id&quot;:0,&quot;malicious_content_type&quot;:0}}]}';
+        if(!!window.__initCatch){
+        window.__initCatch({
+            idkey : 29711,
+            startKey : 60,
+            badjsId: 47,
+
+            reportOpt : {
+                username : username,
+            }
+        });
+    }
+
+    seajs.use("appmsg/profile.js");
+</script>
+<script>
+  var LANG = "zh_CN";
+</script>
+
+    </body>
+</html>
+
