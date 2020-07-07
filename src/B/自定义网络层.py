@@ -44,4 +44,4 @@ network.compile(
                 ,metrics=['acc']
                )
 
-network.fit(shujumeiyou , epochs=,.......)
+# network.fit(shujumeiyou , epochs=,.......)

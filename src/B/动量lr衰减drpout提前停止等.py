@@ -1,7 +1,7 @@
 import tensorflow as tf
 
-tf.keras.optimizers.SGD(lr=,momentum=0.9)
-tf.keras.optimizers.RMSprop(lr=,momentum=0.9)
+# tf.keras.optimizers.SGD(lr=,momentum=0.9)
+# tf.keras.optimizers.RMSprop(lr=,momentum=0.9)
 # tf.keras.optimizers.Adam(beta_1=,beta_2=,lr=)
 
 # 梯度衰减
