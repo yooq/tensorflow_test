@@ -32,19 +32,21 @@ model = tf.keras.Sequential()
 
 model.add(tf.keras.layers.Flatten(input_shape=(28,28)))
 model.add(tf.keras.layers.Dense(128,activation='relu'
-                                ,kernel_regularizer='l2'  #正则化
+                                # ,kernel_regularizer='l2'  #正则化
+                                ,kernel_regularizer=tf.keras.regularizers.l2(0.001)
                                 ))
 model.add(tf.keras.layers.Dropout(rate=0.1))
 model.add(tf.keras.layers.Dense(256,activation='relu'))
 model.add(tf.keras.layers.Dense(256,activation='relu'))
 model.add(tf.keras.layers.Dense(10,activation='softmax'))
-model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+model.compile(optimizer=tf.keras.optimizers.SGD(learning_rate=0.001,momentum=0.9),
               loss=tf.keras.losses.categorical_crossentropy,metrics=['acc']  #one-hot标签与数字标签使用不同的损失函数
               )
 model.fit(x_train,y_train_keras
           ,epochs=5
           ,verbose=1
           ,validation_data=(x_test,y_test_keras) #验证数据集
-          )
 
+          )
+model
 # model.evaluate(x_test,y_test_keras)
