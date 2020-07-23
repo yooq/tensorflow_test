@@ -306,5 +306,6 @@ for i in range(100):
     # filename = 'test_text.txt'
     # with open(filename, 'a+') as file_object:
     #     file_object.write(s+"\n")
-    print(generate_acrostic_poem(tokenizer, model, heads="王炳忠帅"))
+    print(generate_acrostic_poem(tokenizer, model, heads=""))
+
 
