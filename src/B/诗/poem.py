@@ -38,6 +38,9 @@ for line in lines:
 
     poetry.append(content.replace('\n', ''))  # 最后要记得删除换行符
 
+# print('3333333333',poetry[1:1000])
+
+print('111111111111111111',poetry[1:3])
 
 '''
 过滤低频  字，这里没用词
@@ -53,7 +56,7 @@ for line in poetry:
 tokens = [token for token, count in counter.items() if count >= MIN_WORD_FREQUENCY]
 
 
-print(tokens[1:3])
+print('22222222222222',tokens[1:3])
 
 '''
 
@@ -61,13 +64,13 @@ print(tokens[1:3])
 # 补上特殊词标记：填充字符标记、未知词标记、开始标记、结束标记
 tokens = ["[PAD]", "[NONE]", "[START]", "[END]"] + tokens
 # 映射: 词 -> 编号
-word_idx = {}
+word_idx = {}  #len = 3434
 # 映射: 编号 -> 词
 idx_word = {}
+# 词库中的词——index
 for idx, word in enumerate(tokens):
     word_idx[word] = idx
     idx_word[idx] = word
-
 
 class Tokenizer:
     """
@@ -75,7 +78,7 @@ class Tokenizer:
     """
     def __init__(self, tokens):
         # 词汇表大小
-        self.dict_size = len(tokens)
+        self.dict_size = len(tokens) #3434
         # 生成映射关系
         self.token_id = {}  # 映射: 词 -> 编号
         self.id_token = {}  # 映射: 编号 -> 词
@@ -88,6 +91,8 @@ class Tokenizer:
         self.end_id = self.token_id["[END]"]
         self.none_id = self.token_id["[NONE]"]
         self.pad_id = self.token_id["[PAD]"]
+        # start_id 2 end_id 3 none_id 1 pad-id 0
+        print('start_id',self.start_id,'end_id',self.end_id,'none_id',self.none_id,'pad-id',self.pad_id)
 
     def id_to_token(self, token_id):
         """
@@ -105,11 +110,11 @@ class Tokenizer:
         """
         词列表 -> [START]编号 + 编号列表 + [END]编号
         """
-        token_ids = [self.start_id, ]  # 起始标记
+        token_ids = [self.start_id, ]  # 起始标记2
         # 遍历，词转编号
         for token in tokens:
             token_ids.append(self.token_to_id(token))
-        token_ids.append(self.end_id)  # 结束标记
+        token_ids.append(self.end_id)  # 结束标记3
         return token_ids
 
     def decode(self, token_ids):
@@ -127,25 +132,22 @@ class Tokenizer:
                 tokens.append(token)
         return tokens
 
-
 tokenizer = Tokenizer(tokens)
-
 
 class PoetryDataSet:
     """
     古诗数据集生成器
     """
-
     def __init__(self, data, tokenizer, batch_size):
         # 数据集
         self.data = data
-        self.total_size = len(self.data)
+        self.total_size = len(self.data) #2455
         # 分词器，用于词转编号
         self.tokenizer = tokenizer
         # 每批数据量
         self.batch_size = batch_size
         # 每个epoch迭代的步数
-        self.steps = int(math.floor(len(self.data) / self.batch_size))
+        self.steps = int(math.floor(len(self.data) / self.batch_size))  #767
 
     def pad_line(self, line, length, padding=None):
         """
@@ -160,6 +162,7 @@ class PoetryDataSet:
         else:
             return line[:length]
 
+
     def __len__(self):
         return self.steps
 
@@ -169,31 +172,34 @@ class PoetryDataSet:
         # 迭代一个epoch，每次yield一个batch
         for start in range(0, self.total_size, self.batch_size):
             end = min(start + self.batch_size, self.total_size)
-            data = self.data[start:end]
-
-            max_length = max(map(len, data))
+            data = self.data[start:end]  #32首诗
+            max_length = max(map(len, data)) #60
 
             batch_data = []
             for str_line in data:
                 # 对每一行诗词进行编码、并补齐padding
+                # print('str_line',str_line)
                 encode_line = self.tokenizer.encode(str_line)
                 pad_encode_line = self.pad_line(encode_line, max_length + 2)  # 加2是因为tokenizer.encode会添加START和END
                 batch_data.append(pad_encode_line)
 
             batch_data = np.array(batch_data)
-            # yield 特征、标签
+
+            # yield 特征、标签  32首诗，----start+每首诗 作为特征，----每首诗加end作为标签
             yield batch_data[:, :-1], batch_data[:, 1:]
 
     def generator(self):
+        '''
+        特征和标签
+        ----start+每首诗 作为特征，----每首诗加end作为标签
+        :return:
+        '''
         while True:
             yield from self.__iter__()
 
 
 BATCH_SIZE = 32
-dataset = PoetryDataSet(poetry, tokenizer, BATCH_SIZE)
-
-
-
+dataset = PoetryDataSet(poetry, tokenizer, BATCH_SIZE)  #(语料一首一首的诗，)
 
 model = tf.keras.Sequential([
     # 词嵌入层
@@ -206,12 +212,13 @@ model = tf.keras.Sequential([
     tf.keras.layers.TimeDistributed(tf.keras.layers.Dense(tokenizer.dict_size, activation='softmax')),
 ])
 
+print(model.summary())
+print(model.input.shape)
 
 model.compile(
     optimizer=tf.keras.optimizers.Adam(),
     loss=tf.keras.losses.sparse_categorical_crossentropy
 )
-
 
 # model.fit(
 #     dataset.generator(),
@@ -231,6 +238,8 @@ def predict(model, token_ids):
     # -1 表示只要对最新的词的预测
     # 3: 表示不要前面几个标记符
     _probas = model.predict([token_ids, ])[0, -1, 3:]
+
+
     # 按概率降序，取前100
     p_args = _probas.argsort()[-100:][::-1] # 此时拿到的是索引
     p = _probas[p_args] # 根据索引找到具体的概率值
@@ -252,15 +261,18 @@ def generate_random_poem(tokenizer, model, text=""):
     """
     # 将初始字符串转成token_ids，并去掉结束标记[END]
     token_ids = tokenizer.encode(text)[:-1]
+
     while len(token_ids) < MAX_LEN:
         # 预测词的编号
         target = predict(model, token_ids)
+
         # 保存结果
         token_ids.append(target)
         # 到达END
         if target == tokenizer.end_id:
             break
-
+        print('-----------------')
+        print("".join(tokenizer.decode(token_ids)))
     return "".join(tokenizer.decode(token_ids))
 
 
@@ -300,12 +312,13 @@ def generate_acrostic_poem(tokenizer, model, heads):
 # print(generate_random_poem(tokenizer, model, "白日依山尽，"))
 # print(generate_random_poem(tokenizer, model, "秦时明月汉时关，"))
 
-for i in range(100):
+for i in range(2):
     # print(generate_acrostic_poem(tokenizer, model, heads="我爱小鱼"))
     # s= generate_acrostic_poem(tokenizer, model, heads="我爱小鱼")
     # filename = 'test_text.txt'
     # with open(filename, 'a+') as file_object:
     #     file_object.write(s+"\n")
-    print(generate_acrostic_poem(tokenizer, model, heads=""))
 
+
+    print(generate_random_poem(tokenizer, model, "春眠不觉晓，"))
 
